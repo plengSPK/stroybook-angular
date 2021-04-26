@@ -2,9 +2,9 @@ import { CommonModule } from '@angular/common';
 import { moduleMetadata } from '@storybook/angular';
 import { Meta, Story } from '@storybook/angular/types-6-0';
 
-import { TaskListComponent } from './task-list/task-list.component';
+import { TaskListComponent } from '../components/task-list/task-list.component';
+import { TaskComponent } from '../components/task/task.component';
 import * as TaskStories from './task.stories';
-import { TaskComponent } from './task/task.component';
 
 export default {
   component: TaskListComponent,

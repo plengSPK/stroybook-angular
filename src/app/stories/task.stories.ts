@@ -1,7 +1,7 @@
 import { action } from '@storybook/addon-actions';
 import { Meta, Story } from '@storybook/angular/types-6-0';
 
-import { TaskComponent } from './task/task.component';
+import { TaskComponent } from './../components/task/task.component';
 
 export default {
   title: 'Tutorial/Task',
