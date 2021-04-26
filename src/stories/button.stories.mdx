@@ -1,0 +1,19 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import dedent from 'ts-dedent';
+import Button from './button.component';
+
+<Meta title="Example/Button/Documentation"/>
+
+export const Template = (args) => ({
+  component: Button,
+  props: args,
+});
+
+<Canvas>
+  <Story name="Basic" args={{ primary: true, label: 'Button' }}>
+    {Template.bind({})}
+  </Story>
+  <Story name="Secondary" args={{ primary: false, label: 'Button' }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
